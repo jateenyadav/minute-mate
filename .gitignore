@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+.netlify/
+test-results/
+playwright-report/
+brag-output/
+.DS_Store
+*.log
+eval/.cache/
+docs/eval-results.fake.*
