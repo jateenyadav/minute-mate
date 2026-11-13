@@ -100,7 +100,7 @@ export default function NewMeeting({ onDone, onCancel }: { onDone: (id: string) 
 
   return (
     <section className="card mx-auto max-w-xl overflow-hidden">
-      <div className="bg-gradient-to-br from-brand-600 via-brand-500 to-accent-500 p-6 text-white sm:p-8">
+      <div className="bg-gradient-to-br from-brand-700 to-brand-500 p-6 text-white sm:p-8">
         <p className="text-sm font-semibold uppercase tracking-wider opacity-90">New meeting</p>
         <h2 className="mt-1 text-2xl font-extrabold sm:text-3xl">Upload or record</h2>
         <p className="mt-2 text-sm opacity-90">Up to 90 minutes. The audio is only used to write the transcript and is never stored.</p>

@@ -14,7 +14,7 @@ export default function Home({ onNew, onOpen }: { onNew: () => void; onOpen: (id
 
   return (
     <section className="space-y-4">
-      <div className="card flex flex-wrap items-center justify-between gap-4 bg-gradient-to-br from-brand-600 via-brand-500 to-accent-500 p-5 text-white sm:p-6">
+      <div className="card flex flex-wrap items-center justify-between gap-4 bg-gradient-to-br from-brand-700 to-brand-500 p-5 text-white sm:p-6">
         <div>
           <h1 className="text-2xl font-extrabold">Your meetings</h1>
           <p className="text-sm opacity-90">{list ? `${list.length} meeting${list.length === 1 ? '' : 's'} · ${open} open action item${open === 1 ? '' : 's'}` : 'Loading…'}</p>

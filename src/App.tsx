@@ -24,7 +24,7 @@ function useTheme() {
 function Logo() {
   return (
     <span className="flex items-center gap-2">
-      <span className="grid h-9 w-9 place-items-center rounded-xl bg-gradient-to-br from-brand-500 to-accent-500 text-lg text-white shadow-md shadow-brand-500/30" aria-hidden>≋</span>
+      <span className="grid h-9 w-9 place-items-center rounded-xl bg-brand-600 text-lg text-white shadow-md shadow-brand-600/30" aria-hidden>≋</span>
       <span className="text-lg font-extrabold tracking-tight">Minute<span className="text-brand-600 dark:text-brand-400">Mate</span></span>
     </span>
   );
@@ -123,7 +123,7 @@ function Landing({ onUser, themeButton }: { onUser: (u: User) => void; themeButt
           <p className="inline-block rounded-full bg-accent-500/10 px-3 py-1 text-xs font-bold uppercase tracking-wider text-accent-600 dark:text-accent-400">Free · Works in your browser</p>
           <h1 className="mt-4 text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl">
             Drop in a meeting.<br />
-            <span className="bg-gradient-to-r from-brand-600 via-brand-500 to-accent-500 bg-clip-text text-transparent">Get the minutes.</span>
+            <span className="text-brand-600 dark:text-brand-400">Get the minutes.</span>
           </h1>
           <p className="mt-4 max-w-md text-lg text-slate-600 dark:text-slate-300">MinuteMate writes down what was said, then pulls out the decisions, who does what by when, and what is still open. Ask it anything and it points to the exact moment.</p>
           <ul className="mt-6 space-y-2 text-sm">
