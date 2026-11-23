@@ -1,6 +1,6 @@
 # MinuteMate
 
-**Live website:** https://minute-mate-jateen.netlify.app · [![CI](https://github.com/jateenyadav/minute-mate/actions/workflows/ci.yml/badge.svg)](https://github.com/jateenyadav/minute-mate/actions/workflows/ci.yml)
+**Live demo:** coming soon (needs free API keys; run it locally in 2 minutes, see below) · [![CI](https://github.com/jateenyadav/minute-mate/actions/workflows/ci.yml/badge.svg)](https://github.com/jateenyadav/minute-mate/actions/workflows/ci.yml)
 
 Drop in a meeting. Get minutes, decisions and a to-do list.
 
